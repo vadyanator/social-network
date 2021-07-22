@@ -1,0 +1,28 @@
+.posts {
+    padding: 20px;
+}
+
+.textarea {
+    display: block;
+}
+
+.newPost {
+    margin: 20px 0;
+}
+
+.myPostsTitle {
+    font-size: 30px;
+}
+
+.addPostBtn {
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: all .5s;
+    cursor: pointer;
+    border: none;
+}
+
+.addPostBtn:hover {
+    background-color: orange;
+}

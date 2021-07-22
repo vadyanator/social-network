@@ -1,0 +1,71 @@
+.profile {
+    display: flex;
+    padding: 30px;
+    border-bottom: 2px solid rgba(159, 90, 224, 0.89);
+}
+
+.description {
+    margin-right: 50px;
+}
+
+.profileInfo {
+    font-size: 20px;
+}
+
+.background {
+    max-width: 850px;
+}
+
+.contacts {
+    padding-left: 40px;
+    font-family: 'Fira Sans' sans-serif;
+    font-size: 17px;
+    color: rgb(33, 5, 41);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.addFileLabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    border: 2px dashed #150B22;
+    padding: 9px 49px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.addFileBtn {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    width: 0.4px;
+    height: 0.4px;
+}
+
+.uploadFileIcon {
+    width: 30px;
+    height: auto;
+    margin-right: 11px;
+}
+
+.uploadFileText {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.profileEditBtn {
+    font-size: 20px;
+    padding: 5px 10px;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+}
+
+.profileEditBtn:hover {
+    background-color: orange;
+}

@@ -1,0 +1,31 @@
+.error {
+    border: 2px solid red;
+    outline: none;
+}
+
+.errorText {
+    color: red;
+}
+
+.formCommonError {
+    border: 2px solid red;
+    color: red;
+    padding: 5px;
+    display: inline-block;
+}
+
+.loginPage {
+    padding: 30px;
+}
+
+.loginBtn {
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all .5s;
+    border: none;
+    border-radius: 10px;
+}
+
+.loginBtn:hover {
+    background-color: orange;
+}

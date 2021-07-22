@@ -1,0 +1,24 @@
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.followedWrapper {
+    text-align: center;
+}
+
+.userContainer {
+    display: flex;
+}
+
+.users {
+    padding: 30px;
+}
+
+.usersList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+

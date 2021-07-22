@@ -1,0 +1,26 @@
+.nav {
+    grid-area: n;
+    background-color: rgba(238, 206, 247, 0.692);
+    padding: 20px;
+    
+}
+
+.item {
+    color: rgb(255, 255, 255);
+    padding-bottom: 18px;
+    font-family: 'Fira Sans' sans-serif;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(203, 173, 219, 0.425);
+}
+
+.activeLink{
+    color: rgb(26, 2, 32);
+}
+
+.itemLink {
+    text-decoration: none;
+}
+
+.friends {
+    display: flex;
+}

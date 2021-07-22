@@ -1,0 +1,33 @@
+.selectedPage {
+    font-weight: 800;
+}
+
+.paginator {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages {
+    margin: 0 20px;
+}
+
+.paginatorBtn {
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 20px;
+    transition: all .5s;
+    border-radius: 10px;
+    border: none;
+}
+
+.paginatorBtn:hover {
+    background-color: orange;
+}
+
+.page:hover {
+    cursor: pointer;
+}

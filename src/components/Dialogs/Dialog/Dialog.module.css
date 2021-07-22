@@ -1,0 +1,9 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 20px;
+}
+
+.dialogItem{
+    text-decoration: none;
+}

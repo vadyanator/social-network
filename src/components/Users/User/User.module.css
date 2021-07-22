@@ -1,0 +1,29 @@
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+.userContainer {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.userName {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.followBtn {
+    padding: 5px 10px;
+    font-size: 18px;
+    transition: all .5s;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.followBtn:hover {
+    background-color: orange;
+}
