@@ -2,7 +2,7 @@
   "name": "react-kabzda-1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vadyanator.github.io/start-project",
+  "homepage": " https://vadyanator.github.io/social-network",
   "dependencies": {
     "axios": "^0.21.1",
     "browserslist": "^4.16.6",
